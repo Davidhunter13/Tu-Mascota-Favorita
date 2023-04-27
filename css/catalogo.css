@@ -403,7 +403,7 @@ a{
 
 }
 
-.targetas .filtro{
+.targetas.filtro{
   display: none !important;
 }
 
