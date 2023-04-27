@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --azul:#77aff9;
+    --azul-claro:#bdeaf7;
+    --azul-oscuro:#2c4674;
+    --letra:'Montserrat', sans-serif;
+    --azul-btn:#4c79bb;
+    --azul-fondo:#6aa5e3;
+    --fondo-perro:#488db3;
+}
+
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color:var(--azul-fondo);
+}
+
+.content-center{
+    background:#dbeff9;
+    width: 100%;
+    min-width: 320px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 800px;
+    max-height: 1200px;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.cajainfo {
+    background:#d1723f;
+    height:500px ;
+    overflow: hidden;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.cajainfo .img {
+    background-image: url("../img/alex-big.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    position: relative;
+}
+
+.atras{
+    position: absolute;
+    width: 90%;
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+}
+
+.caja {
+    /* background-color: red; */
+    display: flex;
+    position: absolute;
+    width: 90%;
+    bottom: 20px;
+    place-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+}
+
+.caja .cajainfo1{
+background: #e9e2dcd7;
+padding: 10px 0px;
+border-radius: 20px;
+width: 80px;
+height:85px;
+display: flex;
+place-content: center;
+place-items: center;
+flex-direction: column;
+gap: 15px;
+}
+
+
+.caja .cajainfo1 h1 {
+    font-family: var(--letra);
+    color: var(--azul-oscuro);
+    font-size: 0.9rem;
+}
+
+.caja .cajainfo1 p {
+    font-family: var(--letra);
+    color: var(--azul-oscuro);
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.nombres{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    width: 85%;
+    margin: 30px auto;
+}
+
+.nombres .infoperro{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nombres .infoperro h2{
+    font-family: var(--letra);
+    color: var(--azul-oscuro);
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.nombres .infoperro p{
+    font-family: var(--letra);
+    color: var(--azul-oscuro);
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.nombres .precio h2{
+    font-family: var(--letra);
+    color: var(--azul-oscuro);
+    font-size: 1.5rem;
+}
+
+
+.cajaFoto {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    width: 85%;
+    margin: 30px auto;
+    place-items: center;
+}
+
+.cajaFoto .foto{
+    height: 70px;
+    width: 70px;
+    background-image: url("../img/luisa.png");
+}
+
+.infopersona h3{
+    font-family: var(--letra);
+    color: var(--azul-oscuro);
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+
+.infopersona p{
+    font-family: var(--letra);
+    color: var(--azul-oscuro);
+    font-size: 0.9rem;
+    text-align: left;
+    font-weight: 200;
+}
+
+.casa {
+    background-color: #58c084;
+    padding: 20px;
+    margin: 50px auto;
+    width: 90%;
+    border-radius: 40px;
+}
+
+.casa a {
+
+    text-decoration: none;
+    font-family: var(--letra);
+    color: #fff;
+
+}
