@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/guia.css">
+
+</head>
+<body >
+    <!-- onload="mostrarMascota('todos')" -->
+    
+
+    <!-- Sección principal -->
+<section class="home">
+    <!-- Contenedor central -->
+    <div class="content-center">
+        <!-- Buscador -->
+        <input class="buscador" type="text" name="Buscador" id="Buscador" placeholder="Buscar...">
+        <!-- Botones para seleccionar la categoría de mascota -->
+        <div class="btn">
+            <button class="boton" Ide-mascota="perros" onclick="mostrarMascota('perros')">PERROS</button>
+            <button class="boton" Ide-mascota="gatos" onclick="mostrarMascota('gatos')">GATOS</button>
+            <!-- <button class="boton" Ide-mascota="todos" onclick="mostrarMascota('todos')">TODOS</button> -->
+        </div>
+        <!-- Contenedor de las mascotas -->
+        <div class="flex">
+            <div class="caja perros todos">
+                <img src="img/karsten.png" alt="">
+                <h1 class="nombre">Karsten</h1>
+            </div>
+            <div class="caja perros todos">
+                <img src="img/alvan.png" alt="">
+                <h1 class="nombre">Reigner</h1>
+            </div>
+            <div class="caja gatos todos">
+                <img src="img/alex.png" alt="">
+                <h1 class="nombre">Alex</h1>
+            </div>
+            <div class="caja gatos todos">
+                <img src="img/remi.png" alt="">
+                <h1 class="nombre">Zoe</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="js/guia.js"></script>
+
+</body>
+</html>
